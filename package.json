@@ -1,0 +1,27 @@
+{
+  "name": "loopback-kafka-consumer-middleware",
+  "version": "1.0.0",
+  "description": "Kafka consumer middleware for loopback",
+  "main": "server/middleware/kafka-consumer.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/skrafft/loopback-kafka-consumer-middleware.git"
+  },
+  "keywords": [
+    "loopback",
+    "kafka",
+    "middleware"
+  ],
+  "dependencies": {
+    "kafka-node": "^2.3.0"
+  },    
+  "author": "Sébastien Krafft",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/skrafft/loopback-kafka-consumer-middleware/issues"
+  },
+  "homepage": "https://github.com/skrafft/loopback-kafka-consumer-middleware#readme"
+}
