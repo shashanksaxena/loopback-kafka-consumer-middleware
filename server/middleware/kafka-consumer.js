@@ -23,7 +23,6 @@ module.exports = function(options) {
 
   if (canReceive) {
     var handler = require(path.join(serverPath, options['consumerHandler']));
-    console.log(handler);
     var Consumer = kafka.Consumer;
     var client = new kafka.Client(process.env.KAFKA_URL);
     var consumer = new Consumer(client,
